@@ -1,0 +1,15 @@
+body[color-theme="dark"] {
+  --background: #{$dark-bg};
+  --foreground: #{$dark-fg};
+  --primary: #{$dark-primary};
+  --secondary: #{$dark-secondary};
+  --info: #{$dark-info};
+}
+
+body[color-theme="light"] {
+  --background: #{$light-bg};
+  --foreground: #{$light-fg};
+  --primary: #{$light-primary};
+  --secondary: #{$light-secondary};
+  --info: #{$light-info};
+}
